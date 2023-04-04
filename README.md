@@ -77,6 +77,8 @@ str_split_one(y, pattern = stringr::fixed("."))
 Use `my_add()` to add two numbers or add a number to 10
 
 ``` r
-my_add(2,3)
+x <- 2
+y <- 3
+my_add(x,y)
 #> [1] 5
 ```
